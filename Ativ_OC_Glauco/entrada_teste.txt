@@ -1,0 +1,6 @@
+{'name': 'CircuitoSimples',
+ 'entradas': ['A', 'B', 'C', 'D'],
+ 'saidas': ['Y', 'X'],
+ 'gates': ['g1', 'g2', 'g3', 'g4'], 'g1': ['nand', 'y1', 'A', 'B'], 'g3': ['and', 'Y', 'B', 'y1', 'y2'], 'g2': ['not', 'y2', 'C'], 'g4': ['nor','X', 'Y', 'D', 'y1']
+}
+

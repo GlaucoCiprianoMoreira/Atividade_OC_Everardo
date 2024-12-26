@@ -1,0 +1,9 @@
+{
+'name': 'C6',
+'entradas': ['A','B','C','D'],
+'saidas': ['Y'],
+'gates': ['g1','g2','g3'],
+'g1': ['nand', 'y1', 'A','B'],
+'g2': ['nand', 'y2', 'C','D'],
+'g3': ['nand', 'Y', 'y1','y2']
+}
